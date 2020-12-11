@@ -17,6 +17,7 @@ npm i
 
 - 有private.ppk的请把它丢到项目根目录，否则会自动生成新的
 
-- ```console
+- 运行
+```console
 npm run build
 ```
