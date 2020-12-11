@@ -8,7 +8,7 @@ npm i
 
 # How to use
 
-- Create a new plugin folder and copy your code into that directory.
+- Create a new plugin folder and copy your code files into that directory.
   PS:
   manifest.json must be in the root directory of the plugin
   
