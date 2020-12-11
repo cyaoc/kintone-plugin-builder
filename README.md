@@ -9,9 +9,9 @@ npm i
 
 # 使用方式
 
-- 把原有的plugin代码丢到本项目的plugin目录下
+- 把原有的plugin代码丢到本项目根目录的plugin文件夹下
   
-- 把js文件丢入src目录
+- 把js文件丢入根目录的src文件夹下
   
 - 修改manifest.json，把js路径修改为dist/js/{$your_js_name}.js
 
