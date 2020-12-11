@@ -1,4 +1,4 @@
-# kintone-project-manager
+# kintone-plugin-builder
 这是从react-kintone-plugin项目中分离出来的模版，仅提供js的IE11转换功能
 
 # 安装
