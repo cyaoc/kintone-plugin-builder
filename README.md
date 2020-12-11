@@ -16,7 +16,7 @@ npm i
   
 - Modify manifest.json, change the js path to dist/js/{$your_js_name}.js
 
-- If you have a certificate file, please copy it to the project root directory, otherwise the system will automatically generate a new one
+- If you have a private.ppk file, please copy it to the project root directory, otherwise the system will automatically generate a new one
 
 - Make sure that the entry field in config/webpack.prod.js contains all your js files
 
