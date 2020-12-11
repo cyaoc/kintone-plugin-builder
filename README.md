@@ -1,23 +1,26 @@
 # kintone-plugin-builder
-这是从react-kintone-plugin项目中分离出来的模版，仅提供js的IE11转换功能
+This is a template separated from the react-kintone-plugin project, which provides IE11 support for JS only
 
-# 安装
-下载后
+# Installation
 ```console
 npm i
 ```
 
-# 使用方式
+# How to use
 
-- 把原有的plugin代码丢到本项目根目录的plugin文件夹下
+- Create a new plugin folder and copy your code into that directory.
+  PS:
+  manifest.json must be in the root directory of the plugin
   
-- 把js文件丢入根目录的src文件夹下
+- Create a new src folder and copy your js code to that directory
   
-- 修改manifest.json，把js路径修改为dist/js/{$your_js_name}.js
+- Modify manifest.json, change the js path to dist/js/{$your_js_name}.js
 
-- 有private.ppk的请把它丢到项目根目录，否则会自动生成新的
+- If you have a certificate file, please copy it to the project root directory, otherwise the system will automatically generate a new one
 
-- 运行
+- Make sure that the entry field in config/webpack.prod.js contains all your js files
+
+- Run
 ```console
 npm run build
 ```
