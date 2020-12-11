@@ -12,7 +12,7 @@ npm i
   PS:
   manifest.json must be in the root directory of the plugin
   
-- Create a new src folder and copy your js code to that directory
+- Create a new src folder and copy your js files to that directory
   
 - Modify manifest.json, change the js path to dist/js/{$your_js_name}.js
 
