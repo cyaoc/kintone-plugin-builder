@@ -9,6 +9,7 @@ npm i
 # How to use
 ![usage](https://raw.githubusercontent.com/cyaoc/kintone-plugin-builder/master/screenshot/usage.png)
 - Create a new plugin folder and copy your code files into that directory.
+  
   PS:
   manifest.json must be in the root directory of the plugin
   
