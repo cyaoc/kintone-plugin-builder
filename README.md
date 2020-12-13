@@ -1,5 +1,7 @@
 # kintone-plugin-builder
-This is a separate template from the react-kintone-plugin project, which only provides ie11 support for kintone-plugin
+This is a separate template from the react-kintone-plugin project.
+
+It provides ie11 compatibility support for kintone-plugin.
 
 # Installation
 ```console
